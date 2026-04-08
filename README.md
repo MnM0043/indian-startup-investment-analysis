@@ -11,10 +11,30 @@ It focuses on uncovering insights related to investment patterns, top industries
 3. Understand investment distribution
 4. Highlight top-funded startups
 
+**Dataset:**
+
+1. Source: Kaggle – Indian Startup Funding Dataset (2020–2025)
+2. Records: ~1000+ funding rounds
+3. Fields include:
+    i. Startup
+    ii. Industry
+    iii. City
+    iv. Investment Type
+    v. Funding Amount
+
 **Tools Used:**
 1. MySQL – Data cleaning & analysis
 2. Power BI – Dashboard & visualization
 3. Power Query & DAX – Data transformation & KPIs
+
+**Data Cleaning (SQL)**
+
+Key preprocessing steps performed in MySQL:
+1. Converted date column to proper DATE format
+2. Cleaned inconsistent city names (e.g., Bangalore → Bengaluru)
+3. Handled missing/null values in funding amount
+4. Standardized industry and categorical fields
+5. Removed/handled multi-value inconsistencies
 
 **SQL Analysis (Highlights)**
 
@@ -64,6 +84,14 @@ An interactive Power BI dashboard was built to visualize:
 2. FoodTech is the most funded industry (~$3.5bn)
 3. Funding peaks observed in 2021 and 2024
 4. Majority of investments are early-stage (Seed & Series A)
+5. A small number of startups account for a large share of total funding
+
+**Key Learnings:**
+
+1. Handling real-world messy data (missing values, inconsistent formats)
+2. Writing SQL queries for business analysis
+3. Designing clean, insight-driven dashboards
+4. Applying data storytelling principles
 
 **Project Structure:**
 
