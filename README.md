@@ -12,13 +12,14 @@ It focuses on uncovering insights related to investment patterns, top industries
 4. Highlight top-funded startups
 
 **Tools Used:**
-MySQL – Data cleaning & analysis
-Power BI – Dashboard & visualization
-Power Query & DAX – Data transformation & KPIs
+1. MySQL – Data cleaning & analysis
+2. Power BI – Dashboard & visualization
+3. Power Query & DAX – Data transformation & KPIs
 
 **SQL Analysis (Highlights)**
 
--- Top Industry every Year
+1. Top Industry every Year --
+
 WITH ranked AS (
 	SELECT 
         YEAR(Date) AS year,
@@ -30,14 +31,16 @@ WITH ranked AS (
 SELECT * FROM ranked
 WHERE rnk = 1;
 
--- total investment (in millions) by year 
+2. total investment (in millions) by year --
+
 SELECT YEAR(Date) AS Year,
     (ROUND(SUM(InvestmentAmount_USD), 2)/1000000) AS total_funding_Mn
 FROM indian_startup_funding_2020_2025
 GROUP BY 1
 ORDER BY 1;
 
--- Top 10 cities by investment amount
+3. Top 10 cities by investment amount --
+
 SELECT City,
     (ROUND(SUM(InvestmentAmount_USD),2)/1000000) AS total_funding_Mn
 FROM indian_startup_funding_2020_2025
