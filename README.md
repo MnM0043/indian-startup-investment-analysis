@@ -1,7 +1,8 @@
 # indian-startup-investment-analysis
 SQL + Power BI project analyzing Indian startup funding trends
 
-**Overview**
+**Overview:**
+
 This project analyzes Indian startup funding trends (2020–2025) using MySQL for data analysis and Power BI for visualization.
 It focuses on uncovering insights related to investment patterns, top industries, and regional performance.
 
