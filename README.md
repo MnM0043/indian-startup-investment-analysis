@@ -90,14 +90,23 @@ An interactive Power BI dashboard was built to visualize:
 **Project Structure:**
 
 indian-startup-investment-analysis
+
 │
+
 ├── indian_startup_funding_2020_2025_dataset/
+
 ├── sql/
+
 │   └── dataset_cleaning_SQL_queries.sql
+
 |   └── exploratory_analysis_SQL_queries.sql
+
 ├── dashboard/
+
 │   └── indian_startup_funding.pbix
+
 |   └── dashboard.png
+
 └── README.md
 
 **Dashboard Preview:**
