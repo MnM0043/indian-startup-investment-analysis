@@ -86,13 +86,6 @@ An interactive Power BI dashboard was built to visualize:
 4. Majority of investments are early-stage (Seed & Series A)
 5. A small number of startups account for a large share of total funding
 
-**Key Learnings:**
-
-1. Handling real-world messy data (missing values, inconsistent formats)
-2. Writing SQL queries for business analysis
-3. Designing clean, insight-driven dashboards
-4. Applying data storytelling principles
-
 **Project Structure:**
 
 indian-startup-investment-analysis
@@ -110,7 +103,12 @@ indian-startup-investment-analysis
 
 <img width="1288" height="717" alt="image" src="https://github.com/user-attachments/assets/6b49ab9f-5bc9-42e2-ada6-31a43afc1600" />
 
+**Key Learnings:**
 
+1. Handling real-world messy data (missing values, inconsistent formats)
+2. Writing SQL queries for business analysis
+3. Designing clean, insight-driven dashboards
+4. Applying data storytelling principles
 
 
 
