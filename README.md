@@ -1,4 +1,4 @@
-<img width="1288" height="717" alt="image" src="https://github.com/user-attachments/assets/76bf9c54-3344-4aeb-a98c-e499f2e7fa3e" /># indian-startup-investment-analysis
+# indian-startup-investment-analysis
 SQL + Power BI project analyzing Indian startup funding trends
 
 **Overview**
