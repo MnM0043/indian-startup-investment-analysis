@@ -97,15 +97,15 @@ indian-startup-investment-analysis
 
 ├── sql/
 
-│   └── dataset_cleaning_SQL_queries.sql
+│       └── dataset_cleaning_SQL_queries.sql
 
-|   └── exploratory_analysis_SQL_queries.sql
+|       └── exploratory_analysis_SQL_queries.sql
 
 ├── dashboard/
 
-│   └── indian_startup_funding.pbix
+│       └── indian_startup_funding.pbix
 
-|   └── dashboard.png
+|       └── dashboard.png
 
 └── README.md
 
